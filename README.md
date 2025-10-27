@@ -32,8 +32,8 @@ and the quick demo of the telegram here -> [Jain University Student Assist Bot -
 
 | File | Description |
 |------|-------------|
-| `Student Assistant.json` | n8n workflow for handling Telegram messages and AI responses |
-| `Vector Creation Student.json` | n8n workflow for extracting content from PDF and storing embeddings in Pinecone |
+| `Ollama Student Assist.json` | n8n workflow for handling Telegram messages and AI responses |
+| `Ollama Student Assist Vector.json` | n8n workflow for extracting content from PDF and storing embeddings in Pinecone |
 | `Jain_University_Student_Handbook_FAQs.pdf` | Official FAQ content used as vector store |
 | `README.md` | Project description and setup guide |
 
