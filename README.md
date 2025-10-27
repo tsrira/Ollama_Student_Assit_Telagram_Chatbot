@@ -41,7 +41,7 @@ and the quick demo of the telegram here -> [Jain University Student Assist Bot -
 
 ## Flow Diagram 
 
-<img width="623" height="266" alt="image" src="https://github.com/user-attachments/assets/b31c5c0b-10c7-4c4a-a901-232926ea1bec" />
+<img width="623" height="623" alt="image" src="https://github.com/user-attachments/assets/b31c5c0b-10c7-4c4a-a901-232926ea1bec" />
 
 
 **Overall Architecture Diagram**
