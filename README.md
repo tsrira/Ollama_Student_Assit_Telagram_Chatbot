@@ -1,6 +1,6 @@
 # 🧠 Jain University Student Assistant Bot (n8n + Telegram + Ollama)
 
-This project integrates [n8n](https://n8n.io), [Telegram Bot API](https://core.telegram.org/bots), and Ollama's Llama3.2:3B Model to provide a **smart, automated FAQ assistant** for Jain University students. The assistant answers queries using a vectorized version of the official student handbook.
+This project integrates [n8n](https://n8n.io), [Telegram Bot API](https://core.telegram.org/bots), and Ollama's Llama3.2:3b Model to provide a **smart, automated FAQ assistant** for Jain University students. The assistant answers queries using a vectorized version of the official student handbook.
 
 ---
 
@@ -8,7 +8,7 @@ This project integrates [n8n](https://n8n.io), [Telegram Bot API](https://core.t
 
 - ✅ Real-time question answering via Telegram
 - 📄 Uses a curated [Student Handbook PDF](./Jain_University_Student_Handbook_FAQs.pdf) as the source of truth
-- 🔍 Embedding and semantic search using Pinecone + OpenAI
+- 🔍 Embedding and semantic search using Pinecone + Ollama
 - ⚙️ Built on n8n (no-code/low-code automation)
 - 💬 Chat memory support for context
 - 🧾 Response constrained to uploaded content (no hallucinations)
@@ -43,7 +43,7 @@ and the quick demo of the telegram here -> [Jain University Student Assist Bot -
 
 - **n8n**: Automation orchestrator
 - **Telegram Bot**: User interface for queries
-- **OpenAI (GPT-4.1)**: Language model for understanding and summarizing responses
+- **Ollama (llama3.2:3b)**: Language model for understanding and summarizing responses
 - **Pinecone**: Vector store for similarity search
 - **Google Drive**: File trigger for document ingestion
 
@@ -53,7 +53,7 @@ and the quick demo of the telegram here -> [Jain University Student Assist Bot -
 
 1. **Document Vectorization**  
    - Triggers when a file is uploaded to Google Drive  
-   - Splits PDF into chunks → Converts to vectors using OpenAI Embeddings  
+   - Splits PDF into chunks → Converts to vectors using Ollama Embeddings  
    - Stores vectors in Pinecone (Vector DB)
 
 2. **Telegram Bot Assistant**  
