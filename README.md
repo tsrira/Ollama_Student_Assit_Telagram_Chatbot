@@ -49,6 +49,9 @@ Ollama Student Assist Vector
 <img width="554" height="271" alt="image" src="https://github.com/user-attachments/assets/60faff56-8eb5-49cb-ad6b-f00f036c9af8" />
 
 Ollama Student Assist
+
+---
+
 ## 🧱 Tech Stack
 
 - **n8n**: Automation orchestrator
