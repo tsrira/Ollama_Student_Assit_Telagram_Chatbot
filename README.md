@@ -46,16 +46,6 @@ and the quick demo of the telegram here -> [Jain University Student Assist Bot -
 
 **Overall Architecture Diagram**
 
-
-<img width="623" height="266" alt="image" src="https://github.com/user-attachments/assets/35a5392e-439a-4c18-a5b5-cb4a85a22dd9" />
-
-**Ollama Student Assist Vector**
-
-
-<img width="554" height="271" alt="image" src="https://github.com/user-attachments/assets/60faff56-8eb5-49cb-ad6b-f00f036c9af8" />
-
-**Ollama Student Assist**
-
 ---
 
 ## 🧱 Tech Stack
